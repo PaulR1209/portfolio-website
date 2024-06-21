@@ -38,18 +38,18 @@ a:hover {
     color: slategray;
 }
 
-#logo {
+.logo {
     font-size: 2rem;
 }
 
-#logo:hover {
+.logo:hover {
     cursor: default;
 }
 
 /* Hamburger Menu */
 
 #hamburger-nav {
-    /* display: none; */
+    display: none;
 }
 
 #hamburger-menu {
