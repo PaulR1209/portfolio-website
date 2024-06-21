@@ -3,17 +3,17 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Roboto', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
-nav, #navlinks {
+/* Nav Bar */
+
+nav,
+#navlinks {
     display: flex;
 }
 
@@ -45,5 +45,14 @@ a:hover {
 #logo:hover {
     cursor: default;
 }
-  
 
+/* Hamburger Menu */
+
+#hamburger-nav {
+    /* display: none; */
+}
+
+#hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
