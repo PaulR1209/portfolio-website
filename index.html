@@ -5,7 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+  <link rel="icon" href="assets/images/linkedin.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/images/github.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Portfolio Website</title>
 </head>
 
@@ -43,21 +45,27 @@
   </nav>
 
   <section id="profile">
-    <div id="about">
-      <h1>About Me</h1>
-      <div class="about-me">
-        <img src="assets/images/paul-russell.jpg" alt="Paul Russell Profile Picture" />
-        <div class="about-me-text">
-          <p>
-            Hello, I am
-          </p>
-          <h1>Paul Russell</h1>
-          <p>
-            Full Stack Web Developer
-          </p>
-          <button id="cv-btn" onclick="window.open('./assets/sample-cv.pdf')">
-            Download CV
-          </button>
+    <div id="pic-container">
+      <img src="assets/images/paul-russell.jpg" alt="Paul Russell Profile Picture" />
+    </div>
+    <div class="profile-text">
+      <p class="p1-text">
+        Hello, I am
+      </p>
+      <h1 class="title">Paul Russell</h1>
+      <p class="p2-text">
+        Full Stack Web Developer
+      </p>
+      <div class="btn-container">
+        <button id="cv-btn" onclick="window.open('./assets/sample-cv.pdf')">
+          Download CV
+        </button>
+        <div class="socials-container">
+          <a href="https://www.linkedin.com/in/paul-russell-7a9404282/" target="_blank" rel="noopener"
+            aria-label="Visit My LinkedIn page"><img class="social-logo" src="assets/images/linkedin.png" alt="Visit My LinkedIn Page"></a>
+          <a href="https://github.com/PaulR1209" target="_blank" rel="noopener" aria-label="Visit My GitHub page">
+            <img class="social-logo" src="assets/images/github.png" alt="Visit My GitHub Page">
+          </a>
         </div>
       </div>
     </div>
