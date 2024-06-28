@@ -130,7 +130,7 @@ a:hover {
 /* Sections */
 
 section {
-    padding: 5rem;
+    padding-top: 16rem;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -170,7 +170,8 @@ img {
 }
 
 .profile-text p {
-    font-weight: 600;
+    font-weight: 450;
+    color: rgb(85, 85, 85);
 }
 
 .p1-text {
@@ -185,6 +186,7 @@ img {
 .title {
     font-size: 3rem;
     text-align: center;
+    padding: 1rem;
 }
 
 /* Button */
@@ -232,6 +234,12 @@ img {
     cursor: pointer;
     height: 2.5rem;
 }
+
+.social-logo:hover {
+    transform: scale(1.1);
+}
+
+
 
 /* Media Queries */
 
