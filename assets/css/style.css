@@ -149,6 +149,8 @@ section {
     gap: 5rem;
 }
 
+/* Profile Picture */
+
 #pic-container {
     display: flex;
     height: 400px;
@@ -159,6 +161,8 @@ section {
 img {
     border-radius: 50%;
 }
+
+/* Profile Text */
 
 .profile-text {
     align-self: center;
@@ -183,18 +187,50 @@ img {
     text-align: center;
 }
 
+/* Button */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#cv-btn {
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#cv-btn:hover {
+    background-color: white;
+    color: black;
+    border: black 0.1 rem solid;
+}
+
+/* Social Media Links */
+
 .socials-container {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     gap: 1rem;
 }
 
-/* Icons */
+.socials-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+}
 
 .social-logo {
     cursor: pointer;
-    height: 2rem;
+    height: 2.5rem;
 }
 
 /* Media Queries */

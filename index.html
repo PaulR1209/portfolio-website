@@ -1,75 +1,97 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="icon"
+      href="assets/images/file-regular.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Portfolio Website</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="icon" href="assets/images/file-regular.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <title>Portfolio Website</title>
-</head>
-
-<body>
-  <nav id="navbar">
-    <div class="logo">Paul Russell</div>
-    <div>
-      <ul id="navlinks">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#experience">My Experience</a></li>
-        <li><a href="#projects">My Projects</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <nav id="hamburger-nav">
-    <div class="logo">Paul Russell</div>
-    <div id="hamburger-menu">
-      <div id="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+  <body>
+    <nav id="navbar">
+      <div class="logo">Paul Russell</div>
       <div>
-        <ul id="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">My Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">My Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+        <ul id="navlinks">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">My Experience</a></li>
+          <li><a href="#projects">My Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
         </ul>
       </div>
-    </div>
+    </nav>
 
-  </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Paul Russell</div>
+      <div id="hamburger-menu">
+        <div id="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div>
+          <ul id="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+            <li>
+              <a href="#experience" onclick="toggleMenu()">My Experience</a>
+            </li>
+            <li><a href="#projects" onclick="toggleMenu()">My Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <section id="profile">
-    <div id="pic-container">
-      <img src="assets/images/paul-russell.jpg" alt="Paul Russell Profile Picture" />
-    </div>
-    <div class="profile-text">
-      <p class="p1-text">
-        Hello, I am
-      </p>
-      <h1 class="title">Paul Russell</h1>
-      <p class="p2-text">
-        Full Stack Web Developer
-      </p>
-      <div class="btn-container">
-        <button id="cv-btn" onclick="window.open('./assets/sample-cv.pdf')">
-          Download CV
-        </button>
+    <section id="profile">
+      <div id="pic-container">
+        <img
+          src="assets/images/paul-russell.jpg"
+          alt="Paul Russell Profile Picture"
+        />
+      </div>
+      <div class="profile-text">
+        <p class="p1-text">Hello, I am</p>
+        <h1 class="title">Paul Russell</h1>
+        <p class="p2-text">Full Stack Web Developer</p>
+        <div class="btn-container">
+          <button id="cv-btn" onclick="window.open('./assets/sample-cv.pdf')">
+            Download CV
+          </button>
+        </div>
         <div class="socials-container">
-          <a href="https://www.linkedin.com/in/paul-russell-7a9404282/" target="_blank" rel="noopener"
-            aria-label="Visit My LinkedIn page"><img class="social-logo" src="assets/images/linkedin.png" alt="Visit My LinkedIn Page"></a>
-          <a href="https://github.com/PaulR1209" target="_blank" rel="noopener" aria-label="Visit My GitHub page">
-            <img class="social-logo" src="assets/images/github.png" alt="Visit My GitHub Page">
+          <a
+            href="https://www.linkedin.com/in/paul-russell-7a9404282/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit My LinkedIn page"
+            ><img
+              class="social-logo"
+              src="assets/images/linkedin.png"
+              alt="Visit My LinkedIn Page"
+          /></a>
+          <a
+            href="https://github.com/PaulR1209"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit My GitHub page"
+          >
+            <img
+              class="social-logo"
+              src="assets/images/github.png"
+              alt="Visit My GitHub Page"
+            />
           </a>
         </div>
       </div>
-    </div>
-  </section>
-  <script src="assets/js/script.js"></script>
-</body>
-
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
